@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pyscript.net/releases/2025.7.3/core.css">
+    <script type="module" src="https://pyscript.net/releases/2025.7.3/core.js"></script>
+    
+    <title>Seatwork 2</title>
+
+    <style>
+        body {
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            background-color: #1F1D1B;
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            text-align: center;
+            padding: 40px 20px 10px 20px;
+            color: whitesmoke;
+        }
+
+        #header h1 {
+            margin: 0;
+            font-size: 58px;
+            color: whitesmoke;
+        }
+
+        #header p {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        .menu-section {
+            background-color: #f4f4f4;
+            color: black;
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            width: 90%;
+            max-width: 700px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th, td {
+            font-size: 20px;
+            padding: 20px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            font-weight: bold;
+        }
+
+        #last {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: white;
+        }
+
+        .dine-in {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        .button {
+            background-color: yellow;
+            color: #1F1D1B;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 14px;
+            display: inline-block;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            color: grey;
+            margin-top: 80px;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="header">
+        <h1 id="dive"></h1>
+        <p id="dive2"></p>
+    </div>
+
+    <div class="menu-section">
+        <h3></h3>
+        <table id="dive4">
+          
+            <tr>
+                <th>Menu Item</th>
+                <th>Price (PHP)</th>
+            </tr>
+            <tr>
+                <td>Caeser Salad</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Tomato Soup</td>
+                <td>270</td>
+            </tr>
+            <tr>
+                <td>Truffle Cream Pasta</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Steak Frites</td>
+                <td>575</td>
+            </tr>
+            <tr>
+                <td>Knafeh Ice Cream</td>
+                <td>400</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <div id="last">
+        <p id="dive3"></p>
+        <div class="dine-in"><span class="button">Dine-in Available</span></div>
+    </div>
+
+    <script type="py" src="main.py"></script>
+
+    <footer>Erin Gayle Antes | 10-Emerald</footer>
+</body>
+</html>
